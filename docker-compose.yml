@@ -1,0 +1,12 @@
+version: '3.8'
+
+# docker compose -f docker-compose.yml up --build
+
+services:
+  database-management:
+    container_name: database-management
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"

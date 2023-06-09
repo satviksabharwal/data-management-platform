@@ -1,0 +1,23 @@
+{
+  "name": "data-management-platform-planspiel-idm4-server-code",
+  "version": "1.0.0",
+  "description": "metadata for the backend code of the data management platform for Planspiel project",
+  "main": "index.js",
+  "url": "https://gitlab.hrz.tu-chemnitz.de/vsr/edu/planspiel/ws2223/idm/idm-4/idm-4/data-management-platform",
+  "author": "Calvin Liusnando",
+  "private": true,
+  "dependencies": {
+    "@google-cloud/storage": "^6.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "knex": "^2.4.0",
+    "nodemailer": "^6.9.1",
+    "pg": "^8.8.0",
+    "stripe": "^11.13.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
